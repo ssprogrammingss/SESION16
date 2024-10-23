@@ -6,7 +6,7 @@ function validarFormulario(){
         alert("Todos los campos son obligatorios...");
         return false;
     }
-        return true;
+    return true;
 }
 function mostrarImagen(event){
     let imagen=document.getElementById("ver-imagen");
