@@ -5,7 +5,7 @@ function validarFormulario(){
     if(nombre=="" || email=="" || imagen=="" ){
         alert("Todos los campos son obligatorios...");
         return false;
-    }
+}
     return true;
 }
 function mostrarImagen(event){
